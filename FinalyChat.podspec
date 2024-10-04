@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FinalyChat'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FinalyChat.'
+  s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,53 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'A ChatTestDemo App That is Demo. Once Intalled and the use it Easily.'
                        DESC
 
-  s.homepage         = 'https://github.com/sanjay.khatri02@outlook.com/FinalyChat'
+  s.homepage         = 'https://github.com/sanjaykhatri02/FinalyChat'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sanjay.khatri02@outlook.com' => 'sanjay.khatri02@outlook.com' }
-  s.source           = { :git => 'https://github.com/sanjay.khatri02@outlook.com/FinalyChat.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sanjaykhatri02/FinalyChat.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'FinalyChat/Classes/**/*'
+  #  s.pod_target_xcconfig = {
+  #  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  #  }
+    
+    #s.source       = { :http => 'https://github.com/sanjaykhatri02/FinalChat/raw/main//ChatDummyNewy.zip' }
+    
+    s.source_files = 'Classes/**/*.{swift,h,m}'
+    s.resources = 'Resources/**/*.{storyboard,xib,xcassets,png,jpeg,jpg,gif}'
+    
+
+    #s.preserve_paths      = "ChatDummyNewy.xcframework"
+    #s.vendored_frameworks = "ChatDummyNewy.xcframework"
+    
+    #s.preserve_paths      = '**/ChatDummyNewy.xcframework'
+    #s.vendored_frameworks = '**/ChatDummyNewy.xcframework'
+    
+    s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
+
+
+    s.dependency 'Alamofire', '>= 5.0', '< 6.0'
+    s.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
+    s.dependency 'FMDB', '>= 2.7', '< 3.0'
+    s.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+    s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
+    s.dependency 'Firebase/Core'
+    s.dependency 'Firebase/Messaging'
+    s.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
+    s.dependency 'Cosmos', '>= 23.0', '< 24.0'
+
+
+    
+    #s.static_framework = true
+
+    
   
   # s.resource_bundles = {
   #   'FinalyChat' => ['FinalyChat/Assets/*.png']
