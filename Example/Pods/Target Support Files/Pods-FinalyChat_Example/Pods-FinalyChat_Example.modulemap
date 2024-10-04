@@ -1,0 +1,6 @@
+framework module Pods_FinalyChat_Example {
+  umbrella header "Pods-FinalyChat_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

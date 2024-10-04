@@ -1,0 +1,16 @@
+PODS:
+  - FinalyChat (0.1.0)
+
+DEPENDENCIES:
+  - FinalyChat (from `../`)
+
+EXTERNAL SOURCES:
+  FinalyChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FinalyChat: 0b26fe833fcd459277cb0f1ffd63e28c9efb375c
+
+PODFILE CHECKSUM: 5c7f628e3c24160a3e96cb4fc3ba885715fb4d6b
+
+COCOAPODS: 1.15.2

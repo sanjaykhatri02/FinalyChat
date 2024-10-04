@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F28F875148A52DE0A39AABCA55ABBF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		415F66369796431240579047B356D620 /* Pods-FinalyChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48679A04B748AB4F65AC4D10BEFF11F6 /* Pods-FinalyChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6249B70AECF692D8E3D74C3734368AD0 /* Pods-FinalyChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B364D0FE59BA7EA9B78ED1D932319548 /* Pods-FinalyChat_Tests-dummy.m */; };
+		64F227ED426393E825DE3895AD795825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6AE6116EA0D9E6F1C25AB9497D7631E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87E8208F791B460D198F80273638D3AC /* FinalyChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA301BADFFAF828FC437BE742338E5A /* FinalyChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A9D27CBEC0D0B971AB2493E95873757 /* Pods-FinalyChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54F2ECEB9B9138E94282A3E61A4995C /* Pods-FinalyChat_Example-dummy.m */; };
+		9C715ED6D011024CAA467C2D482F4540 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0B07B51D337D23B9C24D5D36E00AD /* ReplaceMe.swift */; };
+		DB113F919B270CA3CF34AF03D89E7C37 /* FinalyChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338F9B19C8EF9D589C61B88FC6A9A919 /* FinalyChat-dummy.m */; };
+		FE75659A13BFA318C649CCFA1E0C6348 /* Pods-FinalyChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 939A4F49BFDCCA76D5DF29CB314FE09B /* Pods-FinalyChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A55E4828EDD32AB8ECC60BE3A8507A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5343AA04FEFA3BB1326C9DD3352DD8;
+			remoteInfo = "Pods-FinalyChat_Example";
+		};
+		FD00A9633C933DC4ECF7A1577EB14587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3629639A42D4BA3EF89E5BD50E203C;
+			remoteInfo = FinalyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D16CAECCE28F6F9281FB91866D7541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08DACA3A7B756C265CE4D19C9BC87317 /* Pods-FinalyChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalyChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C9AABE2A7F81BA282565B67EEB7C4BF /* Pods-FinalyChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalyChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12C55D5796680EF8CF03AF5F15DE496C /* FinalyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinalyChat.release.xcconfig; sourceTree = "<group>"; };
+		19F43B34E3D269D3BECC2548C99B80A9 /* FinalyChat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FinalyChat; path = FinalyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA4CA1665B3F6EC0D5ADF2AE136D0DF /* Pods-FinalyChat_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FinalyChat_Tests"; path = Pods_FinalyChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		258FADD3515F4B6AA965D053158101A5 /* Pods-FinalyChat_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FinalyChat_Example"; path = Pods_FinalyChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292905C38075B388957CD54F8F76CDB0 /* Pods-FinalyChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalyChat_Example-Info.plist"; sourceTree = "<group>"; };
+		31F5700330D11136ADE8EA62049259C1 /* Pods-FinalyChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalyChat_Tests-Info.plist"; sourceTree = "<group>"; };
+		338F9B19C8EF9D589C61B88FC6A9A919 /* FinalyChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FinalyChat-dummy.m"; sourceTree = "<group>"; };
+		374E3E58582C9A9ED16DA14714A69D94 /* Pods-FinalyChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalyChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3837EA44F65C0512482C9606DC0CCBC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		41E0B07B51D337D23B9C24D5D36E00AD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FinalyChat/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		48679A04B748AB4F65AC4D10BEFF11F6 /* Pods-FinalyChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalyChat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5752861B1EB1286F869DC068299CA3E7 /* FinalyChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FinalyChat.modulemap; sourceTree = "<group>"; };
+		5DFB4DA20D63397A0C4D39DBE57D7B32 /* Pods-FinalyChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalyChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EC06347D3B5E33A6C8394DD271F2C72 /* Pods-FinalyChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalyChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC06875868F6CBCEA6711472F700D03 /* Pods-FinalyChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinalyChat_Tests.modulemap"; sourceTree = "<group>"; };
+		8FA301BADFFAF828FC437BE742338E5A /* FinalyChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FinalyChat-umbrella.h"; sourceTree = "<group>"; };
+		939A4F49BFDCCA76D5DF29CB314FE09B /* Pods-FinalyChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalyChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B364D0FE59BA7EA9B78ED1D932319548 /* Pods-FinalyChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalyChat_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4B13171784D5FE8693D0A08CFE23CD0 /* FinalyChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FinalyChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8502C3820405B6FB73AC93BE41AA5D0 /* Pods-FinalyChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalyChat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9CEB5D4B8A8999F211EBC25AAB13DF5 /* FinalyChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FinalyChat-prefix.pch"; sourceTree = "<group>"; };
+		E54F2ECEB9B9138E94282A3E61A4995C /* Pods-FinalyChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalyChat_Example-dummy.m"; sourceTree = "<group>"; };
+		E8420B66C096CEB3D293192A176FFCCC /* Pods-FinalyChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinalyChat_Example.modulemap"; sourceTree = "<group>"; };
+		F104DD6C2304EFC204A197DA1CE801B8 /* Pods-FinalyChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalyChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3C16D46258E9B25EA474ACCAA103DA4 /* FinalyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FinalyChat.debug.xcconfig; sourceTree = "<group>"; };
+		F4432CE42CA4C6832968994DABD899DF /* FinalyChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FinalyChat-Info.plist"; sourceTree = "<group>"; };
+		F9CEC052ACFF7CDE72AF79B27D04C642 /* Pods-FinalyChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalyChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFC7637FA8AA66E1EBD7C970F29373F9 /* Pods-FinalyChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalyChat_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350792972F4ECA43F2936ED13E266049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE6116EA0D9E6F1C25AB9497D7631E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3522141D9924D0679038E130655BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F28F875148A52DE0A39AABCA55ABBF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76024173C0D3F27468131C6FA9904AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F227ED426393E825DE3895AD795825 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019BAB5220B6DF1E1CE709BBFE2D796E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64FBDB87A32C36C408C2EC15A54B5E45 /* Pods-FinalyChat_Example */,
+				FA67CDD6F5E9E66698CE0E9A9BBEF848 /* Pods-FinalyChat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55DBEEC195B11F7123D51B16F4C8A39E /* FinalyChat */ = {
+			isa = PBXGroup;
+			children = (
+				41E0B07B51D337D23B9C24D5D36E00AD /* ReplaceMe.swift */,
+				7A4792BB9030BA19B64CEC53FE741AE5 /* Pod */,
+				DFF3DB749F95E90AC8D4B4EDCEB8BF36 /* Support Files */,
+			);
+			name = FinalyChat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64FBDB87A32C36C408C2EC15A54B5E45 /* Pods-FinalyChat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E8420B66C096CEB3D293192A176FFCCC /* Pods-FinalyChat_Example.modulemap */,
+				5DFB4DA20D63397A0C4D39DBE57D7B32 /* Pods-FinalyChat_Example-acknowledgements.markdown */,
+				5EC06347D3B5E33A6C8394DD271F2C72 /* Pods-FinalyChat_Example-acknowledgements.plist */,
+				E54F2ECEB9B9138E94282A3E61A4995C /* Pods-FinalyChat_Example-dummy.m */,
+				C8502C3820405B6FB73AC93BE41AA5D0 /* Pods-FinalyChat_Example-frameworks.sh */,
+				292905C38075B388957CD54F8F76CDB0 /* Pods-FinalyChat_Example-Info.plist */,
+				939A4F49BFDCCA76D5DF29CB314FE09B /* Pods-FinalyChat_Example-umbrella.h */,
+				374E3E58582C9A9ED16DA14714A69D94 /* Pods-FinalyChat_Example.debug.xcconfig */,
+				FFC7637FA8AA66E1EBD7C970F29373F9 /* Pods-FinalyChat_Example.release.xcconfig */,
+			);
+			name = "Pods-FinalyChat_Example";
+			path = "Target Support Files/Pods-FinalyChat_Example";
+			sourceTree = "<group>";
+		};
+		7A4792BB9030BA19B64CEC53FE741AE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B4B13171784D5FE8693D0A08CFE23CD0 /* FinalyChat.podspec */,
+				3837EA44F65C0512482C9606DC0CCBC7 /* LICENSE */,
+				04D16CAECCE28F6F9281FB91866D7541 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BEF6B09A534BD41ED390DEBEC423D921 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55DBEEC195B11F7123D51B16F4C8A39E /* FinalyChat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BEF6B09A534BD41ED390DEBEC423D921 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E987FD2929CEC7CAA8B0C4B6BDD941E1 /* Products */,
+				019BAB5220B6DF1E1CE709BBFE2D796E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF3DB749F95E90AC8D4B4EDCEB8BF36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5752861B1EB1286F869DC068299CA3E7 /* FinalyChat.modulemap */,
+				338F9B19C8EF9D589C61B88FC6A9A919 /* FinalyChat-dummy.m */,
+				F4432CE42CA4C6832968994DABD899DF /* FinalyChat-Info.plist */,
+				C9CEB5D4B8A8999F211EBC25AAB13DF5 /* FinalyChat-prefix.pch */,
+				8FA301BADFFAF828FC437BE742338E5A /* FinalyChat-umbrella.h */,
+				F3C16D46258E9B25EA474ACCAA103DA4 /* FinalyChat.debug.xcconfig */,
+				12C55D5796680EF8CF03AF5F15DE496C /* FinalyChat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FinalyChat";
+			sourceTree = "<group>";
+		};
+		E987FD2929CEC7CAA8B0C4B6BDD941E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F43B34E3D269D3BECC2548C99B80A9 /* FinalyChat */,
+				258FADD3515F4B6AA965D053158101A5 /* Pods-FinalyChat_Example */,
+				1CA4CA1665B3F6EC0D5ADF2AE136D0DF /* Pods-FinalyChat_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA67CDD6F5E9E66698CE0E9A9BBEF848 /* Pods-FinalyChat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC06875868F6CBCEA6711472F700D03 /* Pods-FinalyChat_Tests.modulemap */,
+				0C9AABE2A7F81BA282565B67EEB7C4BF /* Pods-FinalyChat_Tests-acknowledgements.markdown */,
+				F104DD6C2304EFC204A197DA1CE801B8 /* Pods-FinalyChat_Tests-acknowledgements.plist */,
+				B364D0FE59BA7EA9B78ED1D932319548 /* Pods-FinalyChat_Tests-dummy.m */,
+				31F5700330D11136ADE8EA62049259C1 /* Pods-FinalyChat_Tests-Info.plist */,
+				48679A04B748AB4F65AC4D10BEFF11F6 /* Pods-FinalyChat_Tests-umbrella.h */,
+				08DACA3A7B756C265CE4D19C9BC87317 /* Pods-FinalyChat_Tests.debug.xcconfig */,
+				F9CEC052ACFF7CDE72AF79B27D04C642 /* Pods-FinalyChat_Tests.release.xcconfig */,
+			);
+			name = "Pods-FinalyChat_Tests";
+			path = "Target Support Files/Pods-FinalyChat_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DA122E73A852325B176168F941A0D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415F66369796431240579047B356D620 /* Pods-FinalyChat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4942A665A50534BBB02706DE50CF726D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E8208F791B460D198F80273638D3AC /* FinalyChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC3B760C609C855D53027F4EF4E5DD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE75659A13BFA318C649CCFA1E0C6348 /* Pods-FinalyChat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A5343AA04FEFA3BB1326C9DD3352DD8 /* Pods-FinalyChat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6741DB771D57C9D704AB5B6F7CF9E48 /* Build configuration list for PBXNativeTarget "Pods-FinalyChat_Example" */;
+			buildPhases = (
+				FBC3B760C609C855D53027F4EF4E5DD3 /* Headers */,
+				BDF925A2B747B38A5357A9864C7066EC /* Sources */,
+				3E3522141D9924D0679038E130655BAC /* Frameworks */,
+				16F1018652A974C312C8A525AF660DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F274CB77A37EE080A0A52B03DBA5E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-FinalyChat_Example";
+			productName = Pods_FinalyChat_Example;
+			productReference = 258FADD3515F4B6AA965D053158101A5 /* Pods-FinalyChat_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		745F81B0EC8C9A89F473931A77C3B5F0 /* Pods-FinalyChat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E4D840A0EE3E247063542AF0BF84D0 /* Build configuration list for PBXNativeTarget "Pods-FinalyChat_Tests" */;
+			buildPhases = (
+				0DA122E73A852325B176168F941A0D37 /* Headers */,
+				42AFCD269087775CA72607A3C52D5C6F /* Sources */,
+				350792972F4ECA43F2936ED13E266049 /* Frameworks */,
+				05DF19B4C783CA4FB6D7A7F12D9D55BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DC3DE74E9870824F4EDE3076DF09BA /* PBXTargetDependency */,
+			);
+			name = "Pods-FinalyChat_Tests";
+			productName = Pods_FinalyChat_Tests;
+			productReference = 1CA4CA1665B3F6EC0D5ADF2AE136D0DF /* Pods-FinalyChat_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F3629639A42D4BA3EF89E5BD50E203C /* FinalyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD50704F760B20D4DE45107AB8D37BBC /* Build configuration list for PBXNativeTarget "FinalyChat" */;
+			buildPhases = (
+				4942A665A50534BBB02706DE50CF726D /* Headers */,
+				34384714A1C42C190C6C3ADFCA934AA0 /* Sources */,
+				76024173C0D3F27468131C6FA9904AAA /* Frameworks */,
+				8726E962D970D81E57F81196F534150E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalyChat;
+			productName = FinalyChat;
+			productReference = 19F43B34E3D269D3BECC2548C99B80A9 /* FinalyChat */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E987FD2929CEC7CAA8B0C4B6BDD941E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F3629639A42D4BA3EF89E5BD50E203C /* FinalyChat */,
+				3A5343AA04FEFA3BB1326C9DD3352DD8 /* Pods-FinalyChat_Example */,
+				745F81B0EC8C9A89F473931A77C3B5F0 /* Pods-FinalyChat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DF19B4C783CA4FB6D7A7F12D9D55BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F1018652A974C312C8A525AF660DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8726E962D970D81E57F81196F534150E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34384714A1C42C190C6C3ADFCA934AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB113F919B270CA3CF34AF03D89E7C37 /* FinalyChat-dummy.m in Sources */,
+				9C715ED6D011024CAA467C2D482F4540 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFCD269087775CA72607A3C52D5C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6249B70AECF692D8E3D74C3734368AD0 /* Pods-FinalyChat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF925A2B747B38A5357A9864C7066EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9D27CBEC0D0B971AB2493E95873757 /* Pods-FinalyChat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81F274CB77A37EE080A0A52B03DBA5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FinalyChat;
+			target = 8F3629639A42D4BA3EF89E5BD50E203C /* FinalyChat */;
+			targetProxy = FD00A9633C933DC4ECF7A1577EB14587 /* PBXContainerItemProxy */;
+		};
+		D7DC3DE74E9870824F4EDE3076DF09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FinalyChat_Example";
+			target = 3A5343AA04FEFA3BB1326C9DD3352DD8 /* Pods-FinalyChat_Example */;
+			targetProxy = 2A55E4828EDD32AB8ECC60BE3A8507A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B056DCC7AE99264E8C11C7BF7ED2DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C16D46258E9B25EA474ACCAA103DA4 /* FinalyChat.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FinalyChat/FinalyChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FinalyChat/FinalyChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FinalyChat/FinalyChat.modulemap";
+				PRODUCT_MODULE_NAME = FinalyChat;
+				PRODUCT_NAME = FinalyChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D6A668F349D69E41A3A9F6843AF816C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC7637FA8AA66E1EBD7C970F29373F9 /* Pods-FinalyChat_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalyChat_Example/Pods-FinalyChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalyChat_Example/Pods-FinalyChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6481B90BC82363ECC0D879BE5E14C4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374E3E58582C9A9ED16DA14714A69D94 /* Pods-FinalyChat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalyChat_Example/Pods-FinalyChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalyChat_Example/Pods-FinalyChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AC853D41066FAED94E7AAE9B20EC5328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CEC052ACFF7CDE72AF79B27D04C642 /* Pods-FinalyChat_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalyChat_Tests/Pods-FinalyChat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalyChat_Tests/Pods-FinalyChat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD7C178CB7C4CF128548EAA1E7187C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DACA3A7B756C265CE4D19C9BC87317 /* Pods-FinalyChat_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalyChat_Tests/Pods-FinalyChat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalyChat_Tests/Pods-FinalyChat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D530B8AF7EE0EBC2443B4CFFACBD1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C55D5796680EF8CF03AF5F15DE496C /* FinalyChat.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FinalyChat/FinalyChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FinalyChat/FinalyChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FinalyChat/FinalyChat.modulemap";
+				PRODUCT_MODULE_NAME = FinalyChat;
+				PRODUCT_NAME = FinalyChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E4D840A0EE3E247063542AF0BF84D0 /* Build configuration list for PBXNativeTarget "Pods-FinalyChat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7C178CB7C4CF128548EAA1E7187C8D /* Debug */,
+				AC853D41066FAED94E7AAE9B20EC5328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD50704F760B20D4DE45107AB8D37BBC /* Build configuration list for PBXNativeTarget "FinalyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B056DCC7AE99264E8C11C7BF7ED2DE9 /* Debug */,
+				D530B8AF7EE0EBC2443B4CFFACBD1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6741DB771D57C9D704AB5B6F7CF9E48 /* Build configuration list for PBXNativeTarget "Pods-FinalyChat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6481B90BC82363ECC0D879BE5E14C4B5 /* Debug */,
+				2D6A668F349D69E41A3A9F6843AF816C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

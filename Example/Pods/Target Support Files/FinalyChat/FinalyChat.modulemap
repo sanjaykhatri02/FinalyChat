@@ -1,0 +1,6 @@
+framework module FinalyChat {
+  umbrella header "FinalyChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
