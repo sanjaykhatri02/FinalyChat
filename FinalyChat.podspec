@@ -67,10 +67,14 @@ Pod::Spec.new do |s|
     #s.static_framework = true
     
     # Avoid exposing some dependencies to the main app
-     s.subspec 'Private' do |sp|
-       sp.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
-       sp.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
-       sp.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
+#     s.subspec 'Private' do |sp|
+#       sp.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+#       sp.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
+#       sp.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
+#     end
+     
+     s.subspec 'KingfisherSupport' do |sp|
+       sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
      end
 
      s.default_subspecs = 'Private'
