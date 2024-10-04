@@ -80,6 +80,14 @@
 		<data>
 		IfTUKQ0MMlsw376ABc9O+0JTN9M=
 		</data>
+		<key>Kingfisher.bundle/Info.plist</key>
+		<data>
+		NGVNy5jbCy82/usS+m22C38Wv4s=
+		</data>
+		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		hGVuuzmjt5sKGjVNh+ZspIKBF7c=
+		</data>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
 		<data>
 		dKhXTeAxTTVDSpERGSO4m7iEExk=
@@ -134,7 +142,7 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		/DI81gAhfjYoBiRH9+Ph95qVVrM=
+		74V4wzHuZq2UPVMbqkGaXj8WS/k=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -154,7 +162,7 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SEpZxFgvPAc2f+w4r43RxZBGJ4M=
+		aQpwdkEBdd8HSnBvndS+uwRwyVQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -317,6 +325,20 @@
 			NzH9eSR3GTVLxN2mojV2HnD7wXmlHbbqaFGLIoT7WQg=
 			</data>
 		</dict>
+		<key>Kingfisher.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9xbZG3FOgtdJYFx+NUjZSMcz7+On81fG/Co/9s01omI=
+			</data>
+		</dict>
+		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yFi3Q8Y5579kQ1TeQdEowO5K8T00j1zU5gSSpLKH2/k=
+			</data>
+		</dict>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -412,7 +434,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HwP3o8eiJdK9QAn0JbOZFjLXzaPy04lb0f8DaJAxdKY=
+			KstYwN+6eECjrncauoLbqU7jtKhluGGeQOqLlBtxCLY=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -447,7 +469,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0Dbq6EwMq4LLNFRKDfzYmJxUUEholwvgJF7xrMO9rU=
+			I8PoLVOFcjjy8RwFOgNVAPfcgYFzOPlaRU5ZwHZkG6Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
