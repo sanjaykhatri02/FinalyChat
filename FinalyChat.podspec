@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
        sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
      end
 
-     s.default_subspecs = 'Private'
+#     s.default_subspecs = 'Private'
 
     
   
