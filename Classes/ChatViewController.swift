@@ -4721,7 +4721,7 @@ extension ChatViewController : AVAudioRecorderDelegate {
     
 }
 extension ChatViewController {
-    func textViewDidEndEditing(_ textView: UITextView) {
+    public func textViewDidEndEditing(_ textView: UITextView) {
         if self.msgTextField.text.isEmpty{
             self.recordingView.isHidden = true
             self.viewRecordButton.isHidden = false
@@ -4733,7 +4733,7 @@ extension ChatViewController {
         }
     }
     
-    func textViewDidBeginEditing(_ textView: UITextView) {
+    public func textViewDidBeginEditing(_ textView: UITextView) {
         if msgTextField.text.isEmpty{
             
         }
