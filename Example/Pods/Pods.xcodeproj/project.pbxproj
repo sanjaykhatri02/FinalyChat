@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A4B1732CAFBFA60069E044 /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4B1722CAFBFA60069E044 /* ChatDummyNewy.xcframework */; };
 		04A4B1DC2CAFBFC20069E044 /* TopicDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1752CAFBFC10069E044 /* TopicDataModel.swift */; };
 		04A4B1DD2CAFBFC20069E044 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1762CAFBFC10069E044 /* Constants.swift */; };
 		04A4B1DE2CAFBFC20069E044 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1772CAFBFC10069E044 /* ImageCache.swift */; };
@@ -110,6 +109,7 @@
 		04A4B23F2CAFBFC30069E044 /* ConversationCellImageLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4B1D92CAFBFC20069E044 /* ConversationCellImageLoginUser.xib */; };
 		04A4B2402CAFBFC30069E044 /* AudioPlayerNoLoginUserTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4B1DA2CAFBFC20069E044 /* AudioPlayerNoLoginUserTVCell.xib */; };
 		04A4B2412CAFBFC30069E044 /* ConversationCellImageNoLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A4B1DB2CAFBFC20069E044 /* ConversationCellImageNoLoginUser.xib */; };
+		04A4B2432CAFCE120069E044 /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4B2422CAFCE110069E044 /* ChatDummyNewy.xcframework */; };
 		0F28F875148A52DE0A39AABCA55ABBF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		415F66369796431240579047B356D620 /* Pods-FinalyChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48679A04B748AB4F65AC4D10BEFF11F6 /* Pods-FinalyChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6249B70AECF692D8E3D74C3734368AD0 /* Pods-FinalyChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B364D0FE59BA7EA9B78ED1D932319548 /* Pods-FinalyChat_Tests-dummy.m */; };
@@ -140,7 +140,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A4B1722CAFBFA60069E044 /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
 		04A4B1752CAFBFC10069E044 /* TopicDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicDataModel.swift; sourceTree = "<group>"; };
 		04A4B1762CAFBFC10069E044 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04A4B1772CAFBFC10069E044 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -243,6 +242,7 @@
 		04A4B1D92CAFBFC20069E044 /* ConversationCellImageLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageLoginUser.xib; sourceTree = "<group>"; };
 		04A4B1DA2CAFBFC20069E044 /* AudioPlayerNoLoginUserTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPlayerNoLoginUserTVCell.xib; sourceTree = "<group>"; };
 		04A4B1DB2CAFBFC20069E044 /* ConversationCellImageNoLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCellImageNoLoginUser.xib; sourceTree = "<group>"; };
+		04A4B2422CAFCE110069E044 /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
 		04D16CAECCE28F6F9281FB91866D7541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		08DACA3A7B756C265CE4D19C9BC87317 /* Pods-FinalyChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalyChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C9AABE2A7F81BA282565B67EEB7C4BF /* Pods-FinalyChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalyChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -300,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F227ED426393E825DE3895AD795825 /* Foundation.framework in Frameworks */,
-				04A4B1732CAFBFA60069E044 /* ChatDummyNewy.xcframework in Frameworks */,
+				04A4B2432CAFCE120069E044 /* ChatDummyNewy.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				41E0B07B51D337D23B9C24D5D36E00AD /* ReplaceMe.swift */,
-				04A4B1722CAFBFA60069E044 /* ChatDummyNewy.xcframework */,
+				04A4B2422CAFCE110069E044 /* ChatDummyNewy.xcframework */,
 				04A4B1742CAFBFC10069E044 /* Classes */,
 				04A4B1CB2CAFBFC20069E044 /* Resources */,
 				7A4792BB9030BA19B64CEC53FE741AE5 /* Pod */,
