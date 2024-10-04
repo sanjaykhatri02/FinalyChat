@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FinalyChat'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
