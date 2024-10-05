@@ -52,15 +52,15 @@ Pod::Spec.new do |s|
     # Static framework to avoid conflicts with dynamic frameworks
     s.static_framework = true
 
-    s.dependency 'Alamofire', '>= 5.0', '< 6.0'
-    s.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
-    s.dependency 'FMDB', '>= 2.7', '< 3.0'
-    s.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
-    s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
-    s.dependency 'Firebase/Core'
-    s.dependency 'Firebase/Messaging'
-    
-    s.dependency 'Cosmos', '>= 23.0', '< 24.0'
+#    s.dependency 'Alamofire', '>= 5.0', '< 6.0'
+#    s.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
+#    s.dependency 'FMDB', '>= 2.7', '< 3.0'
+#    s.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+#    s.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
+#    s.dependency 'Firebase/Core'
+#    s.dependency 'Firebase/Messaging'
+#    
+#    s.dependency 'Cosmos', '>= 23.0', '< 24.0'
 
 
     
@@ -73,9 +73,43 @@ Pod::Spec.new do |s|
 #       sp.dependency 'Kingfisher', '>= 7.0.0', '< 8.0.3'
 #     end
      
+     s.subspec 'AlamofireSupport' do |sp|
+       sp.dependency 'Alamofire', '>= 5.0', '< 6.0'
+     end
+     
+     s.subspec 'SwiftyJSONSupport' do |sp|
+       sp.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
+     end
+     
+     s.subspec 'FMDBSupport' do |sp|
+       sp.dependency 'FMDB', '>= 2.7', '< 3.0'
+     end
+     
+     s.subspec 'SwiftSignalRClientSupport' do |sp|
+       sp.dependency 'SwiftSignalRClient', '>= 0.8', '< 1.0'
+     end
+     
+     s.subspec 'IQKeyboardManagerSupport' do |sp|
+       sp.dependency 'IQKeyboardManager', '>= 6.5', '< 7.0'
+     end
+     
+     s.subspec 'Firebase/CoreSupport' do |sp|
+       sp.dependency 'Firebase/Core'
+     end
+     
+     s.subspec 'Firebase/Messaging' do |sp|
+       sp.dependency 'Firebase/Messaging'
+     end
+     
+     s.subspec 'CosmosSupport' do |sp|
+       sp.dependency 'Cosmos', '>= 23.0', '< 24.0'
+     end
+     
      s.subspec 'KingfisherSupport' do |sp|
        sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
      end
+     
+     
 
 #     s.default_subspecs = 'Private'
 
