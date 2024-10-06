@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FinalyChat'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-    s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
+#    s.pod_target_xcconfig = {
+#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#    }
     
     #s.source       = { :http => 'https://github.com/sanjaykhatri02/FinalChat/raw/main//ChatDummyNewy.zip' }
     
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
     s.frameworks = ['UIKit', 'Foundation', 'QuickLook', 'Photos', 'MobileCoreServices']
 
     # Static framework to avoid conflicts with dynamic frameworks
-    s.static_framework = true
+    s.static_framework = false
 
 #    s.dependency 'Alamofire', '>= 5.0', '< 6.0'
 #    s.dependency 'SwiftyJSON', '>= 5.0', '< 6.0'
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
        sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
      end
      
-     
+     s.static_framework = false
 
 #     s.default_subspecs = 'Private'
 
