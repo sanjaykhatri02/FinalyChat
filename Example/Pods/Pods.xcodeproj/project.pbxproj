@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044A815E2CB503AD0038061F /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A815D2CB503AC0038061F /* ChatDummyNewy.xcframework */; };
+		044A81602CB510980038061F /* ChatDummyNewy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A815F2CB510970038061F /* ChatDummyNewy.xcframework */; };
 		04A4B1DC2CAFBFC20069E044 /* TopicDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1752CAFBFC10069E044 /* TopicDataModel.swift */; };
 		04A4B1DD2CAFBFC20069E044 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1762CAFBFC10069E044 /* Constants.swift */; };
 		04A4B1DE2CAFBFC20069E044 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4B1772CAFBFC10069E044 /* ImageCache.swift */; };
@@ -140,7 +140,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044A815D2CB503AC0038061F /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
+		044A815F2CB510970038061F /* ChatDummyNewy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ChatDummyNewy.xcframework; sourceTree = "<group>"; };
 		04A4B1752CAFBFC10069E044 /* TopicDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicDataModel.swift; sourceTree = "<group>"; };
 		04A4B1762CAFBFC10069E044 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04A4B1772CAFBFC10069E044 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -300,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F227ED426393E825DE3895AD795825 /* Foundation.framework in Frameworks */,
-				044A815E2CB503AD0038061F /* ChatDummyNewy.xcframework in Frameworks */,
+				044A81602CB510980038061F /* ChatDummyNewy.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				41E0B07B51D337D23B9C24D5D36E00AD /* ReplaceMe.swift */,
-				044A815D2CB503AC0038061F /* ChatDummyNewy.xcframework */,
+				044A815F2CB510970038061F /* ChatDummyNewy.xcframework */,
 				04A4B1742CAFBFC10069E044 /* Classes */,
 				04A4B1CB2CAFBFC20069E044 /* Resources */,
 				7A4792BB9030BA19B64CEC53FE741AE5 /* Pod */,

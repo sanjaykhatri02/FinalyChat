@@ -134,15 +134,15 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		aryBCqekmomNyQj3Zv83IIbykNA=
+		k38mCGYr3T4YkRe0dxlthkV4mhE=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tYM/bjDEulQ/xMjty+NEQYh4o88=
+		o/0WCpdJCvCQlYcBcJTdCUwyvto=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lrHW8C2YGaw/7T7C4ZK5xkgyrDo=
+		oNOaPTYBPRHgzG+/yDFDTu3Y6/A=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lrHW8C2YGaw/7T7C4ZK5xkgyrDo=
+		oNOaPTYBPRHgzG+/yDFDTu3Y6/A=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nCrzMac8Nj2iv5Q0a7lrDcHBMFQ=
+		eElCqMYJuVZBAn3e5lvtDm4urjc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -412,21 +412,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p0mWhwH3nm909akTz23xYhbvr/DSit7C9K54KrXyUFY=
+			fc/xkctHEyHnpWTwR7OORlx/9wTjrxq+f3U/xP4i1Q0=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VoFJrBDwiZ76A2MtUqpMpS0lthW+QDKJW14ULKFy568=
+			CfFaBsMYWVtgXWjE/lPWJWbbHWcCP0QdsBNNTL8qLe4=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FA4jABM6A5hsVFbetrVWdumuXiKP+e4nSBqm9PNbd6Y=
+			mIBx4EK+ZhBADJDAyCTlRvCq4D0KsASgrJnBt9arWFY=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -440,14 +440,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FA4jABM6A5hsVFbetrVWdumuXiKP+e4nSBqm9PNbd6Y=
+			mIBx4EK+ZhBADJDAyCTlRvCq4D0KsASgrJnBt9arWFY=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4jBuAOCzrP/+1+Kdl8eTO7x3jfdZy6kUzYYtF0l/+nY=
+			g9L/JdMkgzcHUNd3FOPpbuC21Tw8cISlD290Q8nUmKs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
