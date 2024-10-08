@@ -10,7 +10,7 @@
 		</data>
 		<key>Alamofire.bundle/Info.plist</key>
 		<data>
-		sIpKrXnyp9JTrCT9oEI4J1OeAuI=
+		fPe3yRLU5ZoxrxlTXGJc/sXRw3E=
 		</data>
 		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>FMDB_Privacy.bundle/Info.plist</key>
 		<data>
-		UB9pZapzb+1EmdYPNvaQTrCC0Tw=
+		9Zymh+eJ1DLJIT90xZjq02uloxo=
 		</data>
 		<key>FMDB_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>IQKeyboardManager.bundle/Info.plist</key>
 		<data>
-		b+MMdiXcDo2yn1GD7fHgzN3cU+8=
+		nO3tdGkqL9YG+yD5bvGq9jQv9fw=
 		</data>
 		<key>IQKeyboardManager.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -79,14 +79,6 @@
 		<key>Info.plist</key>
 		<data>
 		IfTUKQ0MMlsw376ABc9O+0JTN9M=
-		</data>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<data>
-		NGVNy5jbCy82/usS+m22C38Wv4s=
-		</data>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		hGVuuzmjt5sKGjVNh+ZspIKBF7c=
 		</data>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
 		<data>
@@ -142,11 +134,11 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		74V4wzHuZq2UPVMbqkGaXj8WS/k=
+		aryBCqekmomNyQj3Zv83IIbykNA=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KxvWS3IBiveIfrdf2+81fl1Ibsg=
+		tYM/bjDEulQ/xMjty+NEQYh4o88=
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,7 +154,7 @@
 		</data>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aQpwdkEBdd8HSnBvndS+uwRwyVQ=
+		nCrzMac8Nj2iv5Q0a7lrDcHBMFQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -182,7 +174,7 @@
 		</data>
 		<key>SwiftyJSON.bundle/Info.plist</key>
 		<data>
-		BjsgTJ/1uasDkGWvpA1qAEpkeYE=
+		ZKmGC+Jv142yJkkASzinRx60yHY=
 		</data>
 		<key>SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -210,7 +202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ayeoyWGUu8zI/xh5ibbswn16pBmvgRkpIYRR8qQp3j8=
+			FfIX7kpqJTJ/4beYSCdo5pY7Iezrkx8KDvphmwoYARU=
 			</data>
 		</dict>
 		<key>Alamofire.bundle/PrivacyInfo.xcprivacy</key>
@@ -287,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BO+hkUOTw5gWkvc1jZSwzG/ljBeotNOGaQcR0y/3dhc=
+			HrV+sBiFIqHvuBSzx2WBh/K3SHdRcgwh4/awnONlo94=
 			</data>
 		</dict>
 		<key>FMDB_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -315,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h92HVm7BVTJVrH0JjTU4/g6n4FkwWgkM8VNqWoU+nOo=
+			KPvZpv80I/ySQ8nlVXYriWb+xw1Bew0MxFo9eSxV9e8=
 			</data>
 		</dict>
 		<key>IQKeyboardManager.bundle/PrivacyInfo.xcprivacy</key>
@@ -323,20 +315,6 @@
 			<key>hash2</key>
 			<data>
 			NzH9eSR3GTVLxN2mojV2HnD7wXmlHbbqaFGLIoT7WQg=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9xbZG3FOgtdJYFx+NUjZSMcz7+On81fG/Co/9s01omI=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yFi3Q8Y5579kQ1TeQdEowO5K8T00j1zU5gSSpLKH2/k=
 			</data>
 		</dict>
 		<key>MainChat.storyboardc/2bZ-Fh-QGx-view-3Y0-9T-DtI.nib/objects-14.0+.nib</key>
@@ -434,14 +412,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KstYwN+6eECjrncauoLbqU7jtKhluGGeQOqLlBtxCLY=
+			p0mWhwH3nm909akTz23xYhbvr/DSit7C9K54KrXyUFY=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GO3JzKLdMI9IOwujBa952RM7LbI8/xE8J0ctS2QGR7w=
+			VoFJrBDwiZ76A2MtUqpMpS0lthW+QDKJW14ULKFy568=
 			</data>
 		</dict>
 		<key>Modules/ChatDummyNewy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -469,7 +447,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I8PoLVOFcjjy8RwFOgNVAPfcgYFzOPlaRU5ZwHZkG6Q=
+			4jBuAOCzrP/+1+Kdl8eTO7x3jfdZy6kUzYYtF0l/+nY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -504,7 +482,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cx6MHmh34bfvEhhYHxAdc/L807slcMXVM74h2O/cBx4=
+			BJMXPWfGLJGfk4F31q4LLTStjvG3B64D+lru/uU6RHo=
 			</data>
 		</dict>
 		<key>SwiftyJSON.bundle/PrivacyInfo.xcprivacy</key>

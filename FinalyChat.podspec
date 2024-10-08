@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FinalyChat'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'A ChatTestDemo App That is Demo. that is enough for now'
 
 # This description is used to generate tags and improve search results.
@@ -105,9 +105,9 @@ Pod::Spec.new do |s|
        sp.dependency 'Cosmos', '>= 23.0', '< 24.0'
      end
      
-     s.subspec 'KingfisherSupport' do |sp|
-       sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
-     end
+#     s.subspec 'KingfisherSupport' do |sp|
+#       sp.dependency 'Kingfisher', '>= 7.0', '< 8.0.3'
+#     end
      
      s.static_framework = false
 
